@@ -7,7 +7,6 @@
 //
 
 #import "WYOCFoundationViewController.h"
-
 #import <WYOCFoundation/WYOCFoundationHeader.h>
 
 @interface WYOCFoundationViewController ()
@@ -20,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

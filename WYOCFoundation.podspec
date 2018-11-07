@@ -30,11 +30,19 @@ iOS 常用基本组件.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'WYOCFoundation/Classes/**/*'
+  #s.source_files = 'WYOCFoundation/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WYOCFoundation' => ['WYOCFoundation/Assets/*.png']
-  # }
+  s.source_files = 'WYOCFoundation/Classes/WYOCFoundationHeader.h'
+  
+  s.subspec 'Content' do |ss|
+      ss.source_files = 'WYOCFoundation/Classes/**/*.{h,m}'
+      ss.exclude_files = 'WYOCFoundation/Classes/WYOCFoundationHeader.h'
+      #ss.frameworks = "MapKit" , "WebKit" , "AudioToolbox"
+  end
+
+  s.resource_bundles = {
+    'WYOCFoundation' => ['WYOCFoundation/WYOCFoundation.bundle']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

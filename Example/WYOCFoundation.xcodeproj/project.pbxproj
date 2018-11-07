@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53A138FA421DFEC500BB8564 /* Pods_WYOCFoundation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83799D7B0C9F22ECEEE13703 /* Pods_WYOCFoundation_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A8A457EE61E20DBADF110A75 /* Pods_WYOCFoundation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F64174FE551AA6F8D67369 /* Pods_WYOCFoundation_Tests.framework */; };
+		C25E3937F2C34FC8F11ADDF5 /* libPods-WYOCFoundation_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65669E9718D6786C183D390A /* libPods-WYOCFoundation_Tests.a */; };
+		E6DB7939BEE02DCF101885BD /* libPods-WYOCFoundation_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42060C548BE9341F45B32D39 /* libPods-WYOCFoundation_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		23A11C345CFAB604E0B1D2F6 /* Pods-WYOCFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYOCFoundation_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYOCFoundation_Tests/Pods-WYOCFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		25F64174FE551AA6F8D67369 /* Pods_WYOCFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYOCFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42060C548BE9341F45B32D39 /* libPods-WYOCFoundation_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYOCFoundation_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B6370C929D9D92BF1A25E4 /* Pods-WYOCFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYOCFoundation_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYOCFoundation_Example/Pods-WYOCFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WYOCFoundation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYOCFoundation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,9 +59,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		65669E9718D6786C183D390A /* libPods-WYOCFoundation_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYOCFoundation_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71487B017FD624D1102B964D /* Pods-WYOCFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYOCFoundation_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYOCFoundation_Example/Pods-WYOCFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83799D7B0C9F22ECEEE13703 /* Pods_WYOCFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYOCFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		985AB9CA60AE8965E8100F58 /* Pods-WYOCFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYOCFoundation_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYOCFoundation_Tests/Pods-WYOCFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AF5128CCE83E0924C01F28CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				53A138FA421DFEC500BB8564 /* Pods_WYOCFoundation_Example.framework in Frameworks */,
+				E6DB7939BEE02DCF101885BD /* libPods-WYOCFoundation_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				A8A457EE61E20DBADF110A75 /* Pods_WYOCFoundation_Tests.framework in Frameworks */,
+				C25E3937F2C34FC8F11ADDF5 /* libPods-WYOCFoundation_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				83799D7B0C9F22ECEEE13703 /* Pods_WYOCFoundation_Example.framework */,
-				25F64174FE551AA6F8D67369 /* Pods_WYOCFoundation_Tests.framework */,
+				42060C548BE9341F45B32D39 /* libPods-WYOCFoundation_Example.a */,
+				65669E9718D6786C183D390A /* libPods-WYOCFoundation_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				27F5990C2299C108DDED9519 /* [CP] Embed Pods Frameworks */,
+				3C75D632605C3AC0518A9C2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,7 +294,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		27F5990C2299C108DDED9519 /* [CP] Embed Pods Frameworks */ = {
+		3C75D632605C3AC0518A9C2E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -302,26 +302,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WYOCFoundation_Example/Pods-WYOCFoundation_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
-				"${BUILT_PRODUCTS_DIR}/WYOCFoundation/WYOCFoundation.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-WYOCFoundation_Example/Pods-WYOCFoundation_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/WYOCFoundation/WYOCFoundation.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WYOCFoundation.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WYOCFoundation.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYOCFoundation_Example/Pods-WYOCFoundation_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYOCFoundation_Example/Pods-WYOCFoundation_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B2A7ABD715D6BFCC7AEE178 /* [CP] Check Pods Manifest.lock */ = {

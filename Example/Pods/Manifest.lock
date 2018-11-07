@@ -8,6 +8,12 @@ PODS:
     - Masonry
     - MBProgressHUD
     - Toast
+    - WYOCFoundation/Content (= 0.0.1)
+  - WYOCFoundation/Content (0.0.1):
+    - Aspects
+    - Masonry
+    - MBProgressHUD
+    - Toast
 
 DEPENDENCIES:
   - WYOCFoundation (from `../`)
@@ -28,8 +34,8 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
-  WYOCFoundation: c45a15674d5d655a7bb826190f48ca3ce6b4b929
+  WYOCFoundation: f709fe6517d18b026838571a1b5cc00a4e1213e9
 
-PODFILE CHECKSUM: b59c6f930c6bfb48638d9ae22324ca1c7c774c28
+PODFILE CHECKSUM: ede002b79dd99c2bcca69f431a892f25d3f46cd1
 
 COCOAPODS: 1.5.3

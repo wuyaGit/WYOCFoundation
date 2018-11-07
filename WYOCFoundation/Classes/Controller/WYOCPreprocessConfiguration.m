@@ -35,14 +35,21 @@
         [UIScrollView appearance].contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever; //iOS11 解决SafeArea的问题，同时能解决pop时上级页面scrollView抖动的问题
     }
     
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]].resourcePath
+                            stringByAppendingPathComponent:@"/WYOCFoundation.bundle/WYOCFoundation.bundle"];
+    NSBundle *resource_bundle = [NSBundle bundleWithPath:bundlePath];
+    UIImage *image = [UIImage imageNamed:@"component_left_back@3x.png"
+                                inBundle:resource_bundle
+           compatibleWithTraitCollection:nil];
+
     //全局设置
     if (@available(iOS 11.0, *)) {
-        UIImage *backButtonImage = [[UIImage imageNamed:@"component_left_back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        UIImage *backButtonImage = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         [UINavigationBar appearance].backIndicatorImage = backButtonImage;
         [UINavigationBar appearance].backIndicatorTransitionMaskImage = backButtonImage;
         [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(-250, 0) forBarMetrics:UIBarMetricsDefault];
     } else {
-        UIImage *backButtonImage = [[UIImage imageNamed:@"component_left_back"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 25, 0, 0)];
+        UIImage *backButtonImage = [image resizableImageWithCapInsets:UIEdgeInsetsMake(0, 25, 0, 0)];
         [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButtonImage forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
         [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(-WYOC_SCREEN_WIDTH, -WYOC_SCREEN_HEIGHT) forBarMetrics:UIBarMetricsDefault];
     }

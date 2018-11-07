@@ -1,0 +1,1 @@
+../../../../../WYOCFoundation/Classes/View/WYOCBadgeImageView.h

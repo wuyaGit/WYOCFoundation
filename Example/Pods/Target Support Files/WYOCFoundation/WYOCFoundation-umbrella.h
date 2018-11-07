@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WYOCFoundationHeader.h"
 #import "UIButton+WYExtension.h"
 #import "UIControl+WYClickBlock.h"
 #import "UITabBar+WYBadge.h"
@@ -23,7 +24,6 @@
 #import "WYOCBadgeButton.h"
 #import "WYOCBadgeImageView.h"
 #import "WYOCTextView.h"
-#import "WYOCFoundationHeader.h"
 
 FOUNDATION_EXPORT double WYOCFoundationVersionNumber;
 FOUNDATION_EXPORT const unsigned char WYOCFoundationVersionString[];
