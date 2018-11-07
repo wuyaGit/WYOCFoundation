@@ -1,0 +1,6 @@
+framework module WYOCFoundation {
+  umbrella header "WYOCFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

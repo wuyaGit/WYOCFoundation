@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WYOCFoundation_Example' do
+  pod 'WYOCFoundation', :path => '../'
+
+  target 'WYOCFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

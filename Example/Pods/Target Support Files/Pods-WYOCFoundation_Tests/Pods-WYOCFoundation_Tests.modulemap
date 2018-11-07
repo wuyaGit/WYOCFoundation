@@ -1,0 +1,6 @@
+framework module Pods_WYOCFoundation_Tests {
+  umbrella header "Pods-WYOCFoundation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
