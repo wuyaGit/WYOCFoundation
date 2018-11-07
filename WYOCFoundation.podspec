@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WYOCFoundation'
   s.version          = '0.0.1'
-  s.summary          = 'iOS 常用基础组件.'
+  s.summary          = 'iOS 常用基本组件.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-iOS 常用基础组件.
+iOS 常用基本组件.
                        DESC
 
   s.homepage         = 'https://github.com/wuyaGit/WYOCFoundation'
@@ -41,5 +41,6 @@ iOS 常用基础组件.
    s.dependency 'MBProgressHUD'
    s.dependency 'Toast'
    s.dependency 'Masonry'
-   
+   s.dependency 'Aspects'
+
 end

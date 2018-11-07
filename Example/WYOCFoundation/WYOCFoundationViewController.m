@@ -8,6 +8,8 @@
 
 #import "WYOCFoundationViewController.h"
 
+#import <WYOCFoundation/WYOCFoundationHeader.h>
+
 @interface WYOCFoundationViewController ()
 
 @end

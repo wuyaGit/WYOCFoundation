@@ -7,6 +7,7 @@
 
 #import "WYOCPreprocessConfiguration.h"
 #import "WYOCConstants.h"
+#import <Aspects/Aspects.h>
 
 @interface WYOCPreprocessConfiguration ()
 
@@ -87,8 +88,6 @@
         } error:nil];
         
     });
-    
 }
-
 
 @end

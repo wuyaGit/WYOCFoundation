@@ -1,8 +1,10 @@
 PODS:
+  - Aspects (1.4.1)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
   - Toast (4.0.0)
   - WYOCFoundation (0.0.1):
+    - Aspects
     - Masonry
     - MBProgressHUD
     - Toast
@@ -12,6 +14,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Aspects
     - Masonry
     - MBProgressHUD
     - Toast
@@ -21,11 +24,12 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
-  WYOCFoundation: 9799314895ddba7821edca131ee74d47c77ebb4a
+  WYOCFoundation: c45a15674d5d655a7bb826190f48ca3ce6b4b929
 
-PODFILE CHECKSUM: b4ba140669bab501b32f48829e5b0c50d02215dc
+PODFILE CHECKSUM: b59c6f930c6bfb48638d9ae22324ca1c7c774c28
 
 COCOAPODS: 1.5.3
