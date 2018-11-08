@@ -8,6 +8,13 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+//------------------print log----------------
+#ifdef DEBUG
+#define WYOCLog(...) printf("[%s] %s [第%d行]: %s\n", __TIME__ ,__PRETTY_FUNCTION__ ,__LINE__, [[NSString stringWithFormat:__VA_ARGS__] UTF8String])
+
+#else
+#define WYOCLog(...)
+#endif
 
 //------------------color----------------
 //16进制颜色
@@ -26,10 +33,10 @@ blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
 //------------------typeof----------------
 
 ///弱引用
-#define WeakObj(type) autoreleasepool{} __weak typeof(type) type##Weak = type;
+#define WeakObj(type) @autoreleasepool{} __weak typeof(type) type##Weak = type;
 
 ///强引用
-#define StrongObj(type) autoreleasepool{} __strong typeof(type) type = type##Weak;
+#define StrongObj(type) @autoreleasepool{} __strong typeof(type) type = type##Weak;
 
 //------------------safe height----------------
 /// 屏幕宽
